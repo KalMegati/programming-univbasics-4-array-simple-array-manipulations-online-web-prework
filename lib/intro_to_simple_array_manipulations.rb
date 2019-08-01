@@ -33,13 +33,13 @@ def using_concat
 end
 
 
-def using_insert
-  
+def using_insert(array, element)
+  array.insert(element, 3)
 end
 
 
-def using_uniq
-  
+def using_uniq(array)
+  array.uniq
 end
 
 
