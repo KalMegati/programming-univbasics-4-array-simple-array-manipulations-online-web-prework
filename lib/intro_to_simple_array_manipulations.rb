@@ -29,7 +29,7 @@ end
 
 
 def using_concat(con, cat)
-
+  con.concat(cat)
 end
 
 
